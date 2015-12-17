@@ -1,12 +1,18 @@
+const hljs = require('highlight.js');
 const Metalsmith = require('metalsmith');
+
 const markdown = require('metalsmith-markdownit');
 const mdAttrs = require('markdown-it-attrs');
-const hljs = require('highlight.js');
+const layout = require('metalsmith-layouts');
 
 Metalsmith(__dirname)
   .source('site')
   .use(markdown({ highlight })
     .use(mdAttrs))
+  .use(layout({
+    engine: 'jade',
+    directory: 'templates'
+  }))
   .destination('build')
   .build(logResults);
 

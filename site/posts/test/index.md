@@ -2,6 +2,8 @@
 title: Test Post
 author: Ramith Jayatilleka
 created: 2015-12-16
+
+layout: post.jade
 ---
 
 # Test Post
