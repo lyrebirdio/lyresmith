@@ -1,3 +1,9 @@
+---
+title: Test Post
+author: Ramith Jayatilleka
+created: 2015-12-16
+---
+
 # Test Post
 
 Hi, this is a test post.
