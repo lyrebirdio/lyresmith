@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/lyrebirdio/lyresmith#readme",
   "devDependencies": {
+    "highlight.js": "^9.0.0",
+    "markdown-it-attrs": "^0.1.3",
     "metalsmith": "^2.1.0",
     "metalsmith-markdownit": "^0.3.0"
   }

@@ -13,7 +13,7 @@ Hi, this is a test post.
   - With multiple items.
 - But this isn't part of the sublist.
 
-![An image.][0]
+![An image][0]{width=600}
 
 > A beautiful lyrebird.
 
