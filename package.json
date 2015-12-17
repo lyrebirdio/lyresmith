@@ -4,6 +4,8 @@
   "description": "Static site generator for lyrebird.io",
   "main": "index.js",
   "scripts": {
+    "build": "node index.js",
+    "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +19,7 @@
   },
   "homepage": "https://github.com/lyrebirdio/lyresmith#readme",
   "devDependencies": {
+    "metalsmith": "^2.1.0",
+    "metalsmith-markdownit": "^0.3.0"
   }
 }
